@@ -2,6 +2,8 @@
 
 ``mn_pg`` is a commandline utility to simplify the creation and deletion of tables in postgresql.  More sophisticated ALTER TABLE schema management is not within the scope of this project.
 
+This project is split into a lib package in the base level and the binary itself in the mn\_pg directory of the repository.
+
 ### JSON Configuration
 You must provide a json file with the database information mn\_pg will need to connect to postgresql, and the location of the sql files mn_pg will use for the table schemas.  
 
