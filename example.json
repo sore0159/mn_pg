@@ -1,0 +1,12 @@
+{
+        "dbName": "example_db",
+        "dbUser": "example_user",
+        "dbPassword": "example_pass",
+        "schemaFilenames": ["example.sql"],
+
+        "defaultDropAll": false,
+        "defaultDropSome": ["exampletable"],
+
+        "defaultCreateAll": false,
+        "defaultCreateSome": ["exampletable"]
+}
